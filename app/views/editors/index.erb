@@ -1,0 +1,6 @@
+<h1>テストエディター</h1>
+
+<%= form_tag do %>
+  <%= text_area_tag :content, "", :class => "tinymce", :rows => 100, :cols => 120 %>
+  <%= tinymce %>
+<% end %>
